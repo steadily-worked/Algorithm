@@ -31,7 +31,7 @@ def findPath(map, m, n, start, dest, visited):
         # visited=True, 그러니까 방문을 했다고 표시하는 것
         visited[start.row][start.col] = True
     else:  # 그게 아니면 -1을 리턴하고 함수 종료
-        return True
+        return False
     # print("(",start.row,",",start.col,")") # 현재 위치 출력
     if start.row == dest.row:  # 현재 위치가 목적지와 같다면 1 리턴하고 함수 종료
         return True
