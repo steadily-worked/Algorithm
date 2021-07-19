@@ -8,7 +8,7 @@ def dfs(x, y):
     for i in range(4):
         new_x = x + dx[i]
         new_y = y + dy[i]
-        if 0 <= new_x < n and 0 <= new_y < m: # 범위 검사
+        if 0 <= new_x < n and 0 <= new_y < m:  # 범위 검사
             if matrix[new_x][new_y] == 1:
                 matrix[new_x][new_y] = 2
                 dfs(new_x, new_y)
