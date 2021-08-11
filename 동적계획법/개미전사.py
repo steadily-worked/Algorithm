@@ -1,3 +1,4 @@
+# 이것이 취업을 위한 코딩 테스트다 with 파이썬 동적계획법 실전문제
 import sys
 f = sys.stdin.readline
 
